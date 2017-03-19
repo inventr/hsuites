@@ -1,0 +1,88 @@
+/*!
+ * Start Bootstrap - Full Slider HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+html,
+body {
+  height: 100%;
+}
+.carousel,
+.item,
+.active {
+  height: 100%;
+}
+.carousel-inner {
+  height: 100%;
+}
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}/*
+footer {
+  margin: 50px 0;
+}
+.carousel-caption {
+  position: absolute;
+  top: 43%;
+  max-width: 550px;
+  padding: 0 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.fill-caption .entry-categories {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  margin: 0px;
+}
+.fill-caption .entry-title {
+  font-size: 53px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333333;
+  margin: 5px 0;
+}
+.fill-caption .btn {
+  margin-top: 100px;
+  background-color: transparent;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-color: black;
+  border-radius: 0;
+  color: black;
+}*/
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}

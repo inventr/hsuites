@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro");
+html,
+body {
+  background-color: #fff !important;
+}
+.montserrat {
+  font-family: 'Montserrat', sans-serif !important;
+}
+.fjalla {
+  font-family: 'Fjalla One', sans-serif !important;
+}
+.ubuntu {
+  font-family: 'Ubuntu', sans-serif !important;
+}
+.mavenpro {
+  font-family: 'Maven Pro', sans-serif !important;
+}
+.page-container .page-content-wrapper .content {
+  padding-top: 0 !important;
+}
+.text-morado {
+  color: #64387d !important;
+}
+.font-OpenSans {
+  font-family: font-OpenSans;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .mt-20 {
+    margin-top: 0px;
+  }
+}
+.mt-30 {
+  margin-top: 30px;
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .mt-30 {
+    margin-top: 5vh;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .mt-30 {
+    margin-top: 15px;
+  }
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
+.mt-60 {
+  margin-top: 60px !important;
+}
+.pace .pace-progress {
+  background: #fd1d1d !important;
+  height: 3px;
+}
+.pace .pace-progress-inner {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.pace .pace-activity {
+  -webkit-animation: none;
+  -webkit-animation: none;
+  -moz-animation: none;
+  -o-animation: none;
+  -ms-animation: none;
+  animation: none;
+  top: 73px;
+  background: url("/img/progress/progress-circle-danger.svg") no-repeat top left;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  background-size: 100% auto;
+  margin: 0 auto;
+  border-width: 0;
+  border-radius: 0;
+  width: 28px;
+  height: 40px;
+  right: 19px;
+  left: auto;
+}
+.img-responsive {
+  max-width: 100%;
+  height: 100%;
+  display: block;
+}
+.bold {
+  font-weight: bold !important;
+}
+.btn-orange {
+  background-color: #f68a20;
+  color: #fff;
+}
+a:hover {
+  text-decoration: none !important;
+}
+.fa-circle {
+  color: #ed5753 !important;
+}
+.btn-contacto {
+  border: 1px solid #f68a20 !important;
+  background-color: rgba(0,0,0,0) !important;
+  color: #f68a20;
+  margin-top: 2%;
+}
+.btn-contacto:hover {
+  background-color: #f68a20 !important;
+  border: 1px solid transparent !important;
+  color: #fff !important;
+}
+.btn-buscar {
+  border: 1px solid #000 !important;
+  background-color: rgba(0,0,0,0.3) !important;
+  color: #000;
+  margin-top: 2%;
+}
+.btn-buscar:hover {
+  background-color: #48a8ef !important;
+  border: 1px solid transparent !important;
+  color: #fff !important;
+}
+.mt-5p {
+  margin-top: 5%;
+}
+.mt-6p {
+  margin-top: 6%;
+}
+.mt-7p {
+  margin-top: 7%;
+}
+.mt-10p {
+  margin-top: 10%;
+}
+header {
+  padding: 1em 0em;
+  background-color: rgba(0,0,0,0.8) !important;
+  position: fixed;
+  z-index: 1030;
+  width: 100%;
+  -webkit-box-shadow: 0px 1px 3px #000;
+  box-shadow: 0px 1px 3px #000;
+}
+@media only screen and (max-width: 435px) {
+  header {
+    position: inherit;
+  }
+}
+header figure img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+@media only screen and (max-width: 768px) {
+  header figure {
+    margin: 0 auto;
+    text-align: center;
+  }
+  header figure img {
+    margin: 0 auto;
+  }
+}
+header p {
+  color: #fff;
+  line-height: 50px;
+  text-align: right;
+  margin-bottom: 0px;
+}
+header p span {
+  margin: 0px 15px;
+}
+@media only screen and (max-width: 768px) {
+  header p span {
+    display: block;
+  }
+}
+header p i {
+  vertical-align: middle;
+  font-size: 24px !important;
+  color: #fff;
+  margin: 0px 15px;
+}
+@media only screen and (max-width: 768px) {
+  header p {
+    text-align: center;
+    line-height: 30px;
+  }
+  header p .small {
+    display: none;
+  }
+}
+.fill-caption {
+  position: absolute;
+  bottom: 20%;
+  right: 10%;
+  text-align: right;
+}
+@media only screen and (max-width: 768px) {
+  .fill-caption {
+    text-align: center;
+    right: 0;
+    left: 0;
+  }
+}
+.fill-caption .entry-title,
+.fill-caption p {
+  color: #fff;
+}
+.fill-caption .entry-title {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  font-size: 52px;
+}
+.conocenos {
+  padding: 2em 0em;
+  text-align: center;
+  font-family: 'Maven Pro', sans-serif;
+}
+.conocenos span {
+  color: #48a8ef;
+  font-weight: 700;
+}
+.checkin {
+  padding: 2em 0em;
+  -webkit-box-shadow: -1px -2px 5px #000;
+  box-shadow: -1px -2px 5px #000;
+}
+.checkin .form-control {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.checkin .form-control:focus {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 1px solid #48a8ef;
+}
+.checkin .btn-lg {
+  padding: 14px 35px;
+}
+.Hsuite {
+  position: relative;
+}
+.Hsuite:after {
+  content: '';
+  border-top: 35px solid transparent;
+  -webkit-border-image: url("../images/border-top.svg") 100;
+  -moz-border-image: url("../images/border-top.svg") 100;
+  -o-border-image: url("../images/border-top.svg") 100;
+  border-image: url("../images/border-top.svg") 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 730;
+}
+.Hsuite:before {
+  content: '';
+  border-bottom: 35px solid transparent;
+  -webkit-border-image: url("../images/border-bottom.svg") 100;
+  -moz-border-image: url("../images/border-bottom.svg") 100;
+  -o-border-image: url("../images/border-bottom.svg") 100;
+  border-image: url("../images/border-bottom.svg") 100;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 730;
+}
+.Hsuite .fill {
+  height: 100vh;
+}
+@media only screen and (max-width: 435px) {
+  .Hsuite .fill {
+    height: 50vh;
+  }
+}
+.Hsuite article {
+  padding: 4em 5em;
+}
+@media only screen and (max-width: 435px) {
+  .Hsuite article {
+    padding: 2em 2em;
+  }
+}
+.Hsuite article h3 {
+  font-size: 42px;
+}
+.Hsuite article span {
+  font-weight: 600;
+}
+.Hsuite article p {
+  font-size: 16px;
+}
+.blue {
+  color: #48a8ef;
+}
+.red {
+  color: #ed5753;
+}
+.interes {
+  position: relative;
+  padding: 2em 0em;
+  border-bottom: 10px solid #48a8ef;
+}
+.interes h4 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+}
+.interes .time {
+  display: inline-block;
+}
+.interes .time .times {
+  background-color: #ed5753;
+  padding: 1em 1em;
+  border-radius: 50%;
+  color: #fff;
+}
+.interes .time .location {
+  font-size: 12px;
+}
