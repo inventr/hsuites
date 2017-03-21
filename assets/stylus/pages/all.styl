@@ -172,11 +172,112 @@ header
 		
 
 	.time
-		display inline-block
+		display block
+		margin-top 1em
 		.times
 			bg-color(#ed5753)
-			padding 1em 1em
+			padding 0.9em 1em
 			border-radius 50%
 			color color-white
+			font-weight 600
 		.location
 			font-size 12px
+			padding-left 5px
+			
+	.name
+		margin-top 0.7em
+		text-align right
+		span 
+			font-weight 18px
+			ttup()
+			display block
+			font-family fjalla
+			border-bottom 1px solid #000
+		ul 
+			list-style none
+			padding 0px 0px
+			margin 0px 0px			
+			li 
+				display inline-block
+				
+.comollegar
+	relative()
+	padding 2em 0em
+	h5 
+		font-family mavenpro
+		font-size 36px
+		font-weight 600
+		
+	article
+		padding-top 2em
+		padding-bottom 3em
+		
+	h6 
+		font-size 24px
+		span 
+			color #ed5753
+			
+	.mapa
+		height 60vh
+		bg-image(url(../images/mapa.jpg))
+		bg-size(cover)
+		bg-repeat(no-repeat)
+		bg-position(center, center)
+		
+		.vt-middle
+			height 60vh
+			display table-cell
+			vertical-align middle
+			width 100vw
+			text-shadow none
+			text-align center
+			
+.experiencias
+	relative()
+	padding 4em 0em
+	bg-color(#292929)
+	&:before 
+		content ''
+		border-bottom 35px solid transparent	
+		border-image url(../images/border-bottom.svg) 100
+		absolute bottom 0 left 0 right 0
+		z-index 730
+	h1 
+		color color-white
+		text-align center 
+		font-weight 300
+		font-family mavenpro
+		span 
+			color #48a8ef
+			
+.exp-figure
+	relative()
+	figcaption 
+		absolute bottom 0% left 0% right 0%
+		padding-top 0.5em 
+		padding-bottom 0.8em
+		bg-rgba(#000, 80%)
+		color color-white
+		text-align right 
+		padding-right 10px
+		.names 
+			font-weight 18px
+			ttup()
+			display block
+			font-family fjalla
+		
+		ul 
+			list-style none
+			padding 0px 0px
+			margin 0px 0px 
+			li 
+				display inline-block
+				
+.contactenos
+	padding 4em 0em
+	relative()
+	bg-color(#f5f5f5)
+	h5 
+		font-family mavenpro
+		font-size 36px
+		font-weight 600

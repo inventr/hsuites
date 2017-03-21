@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro");
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One");
 html,
 body {
   background-color: #fff !important;
@@ -320,14 +321,138 @@ header p i {
   font-weight: 600;
 }
 .interes .time {
-  display: inline-block;
+  display: block;
+  margin-top: 1em;
 }
 .interes .time .times {
   background-color: #ed5753;
-  padding: 1em 1em;
+  padding: 0.9em 1em;
   border-radius: 50%;
   color: #fff;
+  font-weight: 600;
 }
 .interes .time .location {
   font-size: 12px;
+  padding-left: 5px;
+}
+.interes .name {
+  margin-top: 0.7em;
+  text-align: right;
+}
+.interes .name span {
+  font-weight: 18px;
+  text-transform: uppercase;
+  display: block;
+  font-family: 'Fjalla One', sans-serif;
+  border-bottom: 1px solid #000;
+}
+.interes .name ul {
+  list-style: none;
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+.interes .name ul li {
+  display: inline-block;
+}
+.comollegar {
+  position: relative;
+  padding: 2em 0em;
+}
+.comollegar h5 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+}
+.comollegar article {
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+.comollegar h6 {
+  font-size: 24px;
+}
+.comollegar h6 span {
+  color: #ed5753;
+}
+.comollegar .mapa {
+  height: 60vh;
+  background-image: url("../images/mapa.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.comollegar .mapa .vt-middle {
+  height: 60vh;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100vw;
+  text-shadow: none;
+  text-align: center;
+}
+.experiencias {
+  position: relative;
+  padding: 4em 0em;
+  background-color: #292929;
+}
+.experiencias:before {
+  content: '';
+  border-bottom: 35px solid transparent;
+  -webkit-border-image: url("../images/border-bottom.svg") 100;
+  -moz-border-image: url("../images/border-bottom.svg") 100;
+  -o-border-image: url("../images/border-bottom.svg") 100;
+  border-image: url("../images/border-bottom.svg") 100;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 730;
+}
+.experiencias h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+  font-family: 'Maven Pro', sans-serif;
+}
+.experiencias h1 span {
+  color: #48a8ef;
+}
+.exp-figure {
+  position: relative;
+}
+.exp-figure figcaption {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  padding-top: 0.5em;
+  padding-bottom: 0.8em;
+  background-color: rgba(0,0,0,0.8) !important;
+  color: #fff;
+  text-align: right;
+  padding-right: 10px;
+}
+.exp-figure figcaption .names {
+  font-weight: 18px;
+  text-transform: uppercase;
+  display: block;
+  font-family: 'Fjalla One', sans-serif;
+}
+.exp-figure figcaption ul {
+  list-style: none;
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+.exp-figure figcaption ul li {
+  display: inline-block;
+}
+.contactenos {
+  padding: 4em 0em;
+  position: relative;
+  background-color: #f5f5f5;
+}
+.contactenos h5 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
 }
